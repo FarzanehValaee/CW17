@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import TodoList from "./TodoList";
-import Timer from "./Clock";
 import {Form} from "react-bootstrap";
 import React from "react";
 import Clock from './Clock';
 
-export const name = 'abaszade';
-export const family = 'javaheri';
+
 
 class App extends React.Component {
     constructor(props) {
